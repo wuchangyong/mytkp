@@ -1,0 +1,21 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<schema xmlns="http://www.w3.org/2001/XMLSchema" targetNamespace="http://www.example.org/newXMLSchema" xmlns:tns="http://www.example.org/newXMLSchema" elementFormDefault="qualified">
+
+	<element name="datasources">
+		<complexType>
+			<sequence>
+				<element name="database" minOccurs="1" maxOccurs="unbounded">
+					<complexType>
+						<sequence>
+							<element name="dsn" minOccurs="1" maxOccurs="1"></element>
+							<element name="username" minOccurs="1" maxOccurs="1"></element>
+							<element name="password" minOccurs="1" maxOccurs="1"></element>
+						</sequence>
+						<attribute name="id" type="string" use="required"></attribute>
+					</complexType>
+				</element>
+			</sequence>
+		</complexType>
+	</element>
+	
+</schema>

@@ -1,0 +1,674 @@
+[ 2016-06-17T09:43:04+08:00 ] 127.0.0.1 /mytkp/index.php/Home/Class/loadAllClasses
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000000s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000000s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.000000s ]
+INFO: [ app_end ] --END-- [ RunTime:0.000000s ]
+
+[ 2016-06-17T09:45:46+08:00 ] 127.0.0.1 /mytkp/index.php/Home/Class/loadAllClasses
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.015600s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000000s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.000000s ]
+INFO: [ app_end ] --END-- [ RunTime:0.000000s ]
+
+[ 2016-06-17T09:47:01+08:00 ] 127.0.0.1 /mytkp/index.php/Home/Class/loadAllClasses
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.001000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.003000s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.002000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.004000s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.001000s ]
+INFO: [ app_end ] --END-- [ RunTime:0.003000s ]
+
+[ 2016-06-17T10:02:24+08:00 ] 127.0.0.1 /mytkp/index.php/Home/Class/loadAllClasses
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000000s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000000s ]
+ERR: 1103:Incorrect table name ''
+ [ SQL语句 ] : SELECT * FROM `` 
+ERR: 1103:Incorrect table name ''
+ [ SQL语句 ] : SELECT * FROM `` 
+NOTIC: [2] Cannot modify header information - headers already sent by (output started at D:\php\webapp\mytkp\ThinkPHP\Library\Think\Db\Driver.class.php:170) D:\php\webapp\mytkp\ThinkPHP\Library\Think\Think.class.php 第 229 行.
+NOTIC: [2] Cannot modify header information - headers already sent by (output started at D:\php\webapp\mytkp\ThinkPHP\Library\Think\Db\Driver.class.php:170) D:\php\webapp\mytkp\ThinkPHP\Library\Think\Think.class.php 第 230 行.
+
+[ 2016-06-17T10:02:43+08:00 ] 127.0.0.1 /mytkp/index.php/Home/Class/loadAllClasses
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000000s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.015600s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.015600s ]
+SQL: SHOW COLUMNS FROM `class` [ RunTime:0.0000s ]
+SQL: SELECT * FROM `class`  [ RunTime:0.0000s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.000000s ]
+INFO: [ app_end ] --END-- [ RunTime:0.015600s ]
+
+[ 2016-06-17T10:03:07+08:00 ] 127.0.0.1 /mytkp/index.php/Home/Class/loadAllClasses
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000000s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000000s ]
+ERR: 无法加载数据库驱动: Think\Db\Driver\
+NOTIC: [2] Cannot modify header information - headers already sent by (output started at D:\php\webapp\mytkp\ThinkPHP\Common\functions.php:102) D:\php\webapp\mytkp\ThinkPHP\Library\Think\Think.class.php 第 229 行.
+NOTIC: [2] Cannot modify header information - headers already sent by (output started at D:\php\webapp\mytkp\ThinkPHP\Common\functions.php:102) D:\php\webapp\mytkp\ThinkPHP\Library\Think\Think.class.php 第 230 行.
+
+[ 2016-06-17T10:03:28+08:00 ] 127.0.0.1 /mytkp/index.php/Home/Class/loadAllClasses
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000000s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000000s ]
+ERR: 无法加载数据库驱动: Think\Db\Driver\
+NOTIC: [2] Cannot modify header information - headers already sent by (output started at D:\php\webapp\mytkp\ThinkPHP\Common\functions.php:102) D:\php\webapp\mytkp\ThinkPHP\Library\Think\Think.class.php 第 229 行.
+NOTIC: [2] Cannot modify header information - headers already sent by (output started at D:\php\webapp\mytkp\ThinkPHP\Common\functions.php:102) D:\php\webapp\mytkp\ThinkPHP\Library\Think\Think.class.php 第 230 行.
+
+[ 2016-06-17T10:03:30+08:00 ] 127.0.0.1 /mytkp/index.php/Home/Class/loadAllClasses
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000000s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.015600s ]
+ERR: 无法加载数据库驱动: Think\Db\Driver\
+NOTIC: [2] Cannot modify header information - headers already sent by (output started at D:\php\webapp\mytkp\ThinkPHP\Common\functions.php:102) D:\php\webapp\mytkp\ThinkPHP\Library\Think\Think.class.php 第 229 行.
+NOTIC: [2] Cannot modify header information - headers already sent by (output started at D:\php\webapp\mytkp\ThinkPHP\Common\functions.php:102) D:\php\webapp\mytkp\ThinkPHP\Library\Think\Think.class.php 第 230 行.
+
+[ 2016-06-17T10:03:31+08:00 ] 127.0.0.1 /mytkp/index.php/Home/Class/loadAllClasses
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000000s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000000s ]
+ERR: 无法加载数据库驱动: Think\Db\Driver\
+NOTIC: [2] Cannot modify header information - headers already sent by (output started at D:\php\webapp\mytkp\ThinkPHP\Common\functions.php:102) D:\php\webapp\mytkp\ThinkPHP\Library\Think\Think.class.php 第 229 行.
+NOTIC: [2] Cannot modify header information - headers already sent by (output started at D:\php\webapp\mytkp\ThinkPHP\Common\functions.php:102) D:\php\webapp\mytkp\ThinkPHP\Library\Think\Think.class.php 第 230 行.
+
+[ 2016-06-17T10:03:31+08:00 ] 127.0.0.1 /mytkp/index.php/Home/Class/loadAllClasses
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.003000s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.002000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.004000s ]
+ERR: 无法加载数据库驱动: Think\Db\Driver\
+NOTIC: [2] Cannot modify header information - headers already sent by (output started at D:\php\webapp\mytkp\ThinkPHP\Common\functions.php:102) D:\php\webapp\mytkp\ThinkPHP\Library\Think\Think.class.php 第 229 行.
+NOTIC: [2] Cannot modify header information - headers already sent by (output started at D:\php\webapp\mytkp\ThinkPHP\Common\functions.php:102) D:\php\webapp\mytkp\ThinkPHP\Library\Think\Think.class.php 第 230 行.
+
+[ 2016-06-17T10:03:31+08:00 ] 127.0.0.1 /mytkp/index.php/Home/Class/loadAllClasses
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.003000s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.002000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.004000s ]
+ERR: 无法加载数据库驱动: Think\Db\Driver\
+NOTIC: [2] Cannot modify header information - headers already sent by (output started at D:\php\webapp\mytkp\ThinkPHP\Common\functions.php:102) D:\php\webapp\mytkp\ThinkPHP\Library\Think\Think.class.php 第 229 行.
+NOTIC: [2] Cannot modify header information - headers already sent by (output started at D:\php\webapp\mytkp\ThinkPHP\Common\functions.php:102) D:\php\webapp\mytkp\ThinkPHP\Library\Think\Think.class.php 第 230 行.
+
+[ 2016-06-17T10:03:31+08:00 ] 127.0.0.1 /mytkp/index.php/Home/Class/loadAllClasses
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.015600s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000000s ]
+ERR: 无法加载数据库驱动: Think\Db\Driver\
+NOTIC: [2] Cannot modify header information - headers already sent by (output started at D:\php\webapp\mytkp\ThinkPHP\Common\functions.php:102) D:\php\webapp\mytkp\ThinkPHP\Library\Think\Think.class.php 第 229 行.
+NOTIC: [2] Cannot modify header information - headers already sent by (output started at D:\php\webapp\mytkp\ThinkPHP\Common\functions.php:102) D:\php\webapp\mytkp\ThinkPHP\Library\Think\Think.class.php 第 230 行.
+
+[ 2016-06-17T10:03:31+08:00 ] 127.0.0.1 /mytkp/index.php/Home/Class/loadAllClasses
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.001000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.017600s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.003001s ]
+ERR: 无法加载数据库驱动: Think\Db\Driver\
+NOTIC: [2] Cannot modify header information - headers already sent by (output started at D:\php\webapp\mytkp\ThinkPHP\Common\functions.php:102) D:\php\webapp\mytkp\ThinkPHP\Library\Think\Think.class.php 第 229 行.
+NOTIC: [2] Cannot modify header information - headers already sent by (output started at D:\php\webapp\mytkp\ThinkPHP\Common\functions.php:102) D:\php\webapp\mytkp\ThinkPHP\Library\Think\Think.class.php 第 230 行.
+
+[ 2016-06-17T10:03:32+08:00 ] 127.0.0.1 /mytkp/index.php/Home/Class/loadAllClasses
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.015600s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000000s ]
+ERR: 无法加载数据库驱动: Think\Db\Driver\
+NOTIC: [2] Cannot modify header information - headers already sent by (output started at D:\php\webapp\mytkp\ThinkPHP\Common\functions.php:102) D:\php\webapp\mytkp\ThinkPHP\Library\Think\Think.class.php 第 229 行.
+NOTIC: [2] Cannot modify header information - headers already sent by (output started at D:\php\webapp\mytkp\ThinkPHP\Common\functions.php:102) D:\php\webapp\mytkp\ThinkPHP\Library\Think\Think.class.php 第 230 行.
+
+[ 2016-06-17T10:03:32+08:00 ] 127.0.0.1 /mytkp/index.php/Home/Class/loadAllClasses
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000000s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000000s ]
+ERR: 无法加载数据库驱动: Think\Db\Driver\
+NOTIC: [2] Cannot modify header information - headers already sent by (output started at D:\php\webapp\mytkp\ThinkPHP\Common\functions.php:102) D:\php\webapp\mytkp\ThinkPHP\Library\Think\Think.class.php 第 229 行.
+NOTIC: [2] Cannot modify header information - headers already sent by (output started at D:\php\webapp\mytkp\ThinkPHP\Common\functions.php:102) D:\php\webapp\mytkp\ThinkPHP\Library\Think\Think.class.php 第 230 行.
+
+[ 2016-06-17T10:03:32+08:00 ] 127.0.0.1 /mytkp/index.php/Home/Class/loadAllClasses
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.015601s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000000s ]
+ERR: 无法加载数据库驱动: Think\Db\Driver\
+NOTIC: [2] Cannot modify header information - headers already sent by (output started at D:\php\webapp\mytkp\ThinkPHP\Common\functions.php:102) D:\php\webapp\mytkp\ThinkPHP\Library\Think\Think.class.php 第 229 行.
+NOTIC: [2] Cannot modify header information - headers already sent by (output started at D:\php\webapp\mytkp\ThinkPHP\Common\functions.php:102) D:\php\webapp\mytkp\ThinkPHP\Library\Think\Think.class.php 第 230 行.
+
+[ 2016-06-17T10:03:32+08:00 ] 127.0.0.1 /mytkp/index.php/Home/Class/loadAllClasses
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000000s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000000s ]
+ERR: 无法加载数据库驱动: Think\Db\Driver\
+NOTIC: [2] Cannot modify header information - headers already sent by (output started at D:\php\webapp\mytkp\ThinkPHP\Common\functions.php:102) D:\php\webapp\mytkp\ThinkPHP\Library\Think\Think.class.php 第 229 行.
+NOTIC: [2] Cannot modify header information - headers already sent by (output started at D:\php\webapp\mytkp\ThinkPHP\Common\functions.php:102) D:\php\webapp\mytkp\ThinkPHP\Library\Think\Think.class.php 第 230 行.
+
+[ 2016-06-17T10:03:32+08:00 ] 127.0.0.1 /mytkp/index.php/Home/Class/loadAllClasses
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000000s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000000s ]
+ERR: 无法加载数据库驱动: Think\Db\Driver\
+NOTIC: [2] Cannot modify header information - headers already sent by (output started at D:\php\webapp\mytkp\ThinkPHP\Common\functions.php:102) D:\php\webapp\mytkp\ThinkPHP\Library\Think\Think.class.php 第 229 行.
+NOTIC: [2] Cannot modify header information - headers already sent by (output started at D:\php\webapp\mytkp\ThinkPHP\Common\functions.php:102) D:\php\webapp\mytkp\ThinkPHP\Library\Think\Think.class.php 第 230 行.
+
+[ 2016-06-17T10:03:32+08:00 ] 127.0.0.1 /mytkp/index.php/Home/Class/loadAllClasses
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000000s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000000s ]
+ERR: 无法加载数据库驱动: Think\Db\Driver\
+NOTIC: [2] Cannot modify header information - headers already sent by (output started at D:\php\webapp\mytkp\ThinkPHP\Common\functions.php:102) D:\php\webapp\mytkp\ThinkPHP\Library\Think\Think.class.php 第 229 行.
+NOTIC: [2] Cannot modify header information - headers already sent by (output started at D:\php\webapp\mytkp\ThinkPHP\Common\functions.php:102) D:\php\webapp\mytkp\ThinkPHP\Library\Think\Think.class.php 第 230 行.
+
+[ 2016-06-17T10:03:33+08:00 ] 127.0.0.1 /mytkp/index.php/Home/Class/loadAllClasses
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.015600s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000000s ]
+ERR: 无法加载数据库驱动: Think\Db\Driver\
+NOTIC: [2] Cannot modify header information - headers already sent by (output started at D:\php\webapp\mytkp\ThinkPHP\Common\functions.php:102) D:\php\webapp\mytkp\ThinkPHP\Library\Think\Think.class.php 第 229 行.
+NOTIC: [2] Cannot modify header information - headers already sent by (output started at D:\php\webapp\mytkp\ThinkPHP\Common\functions.php:102) D:\php\webapp\mytkp\ThinkPHP\Library\Think\Think.class.php 第 230 行.
+
+[ 2016-06-17T10:03:33+08:00 ] 127.0.0.1 /mytkp/index.php/Home/Class/loadAllClasses
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000000s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000000s ]
+ERR: 无法加载数据库驱动: Think\Db\Driver\
+NOTIC: [2] Cannot modify header information - headers already sent by (output started at D:\php\webapp\mytkp\ThinkPHP\Common\functions.php:102) D:\php\webapp\mytkp\ThinkPHP\Library\Think\Think.class.php 第 229 行.
+NOTIC: [2] Cannot modify header information - headers already sent by (output started at D:\php\webapp\mytkp\ThinkPHP\Common\functions.php:102) D:\php\webapp\mytkp\ThinkPHP\Library\Think\Think.class.php 第 230 行.
+
+[ 2016-06-17T10:03:33+08:00 ] 127.0.0.1 /mytkp/index.php/Home/Class/loadAllClasses
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000000s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.015600s ]
+ERR: 无法加载数据库驱动: Think\Db\Driver\
+NOTIC: [2] Cannot modify header information - headers already sent by (output started at D:\php\webapp\mytkp\ThinkPHP\Common\functions.php:102) D:\php\webapp\mytkp\ThinkPHP\Library\Think\Think.class.php 第 229 行.
+NOTIC: [2] Cannot modify header information - headers already sent by (output started at D:\php\webapp\mytkp\ThinkPHP\Common\functions.php:102) D:\php\webapp\mytkp\ThinkPHP\Library\Think\Think.class.php 第 230 行.
+
+[ 2016-06-17T10:06:44+08:00 ] 127.0.0.1 /mytkp/index.php/Home/Class/loadAllClasses
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000000s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000000s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.000000s ]
+INFO: [ app_end ] --END-- [ RunTime:0.000000s ]
+
+[ 2016-06-17T10:07:31+08:00 ] 127.0.0.1 /mytkp/index.php/Home/Class/loadAllClasses
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000000s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000000s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.000000s ]
+INFO: [ app_end ] --END-- [ RunTime:0.000000s ]
+
+[ 2016-06-17T10:19:36+08:00 ] 127.0.0.1 /mytkp/index.php/Home/Class/loadAllClasses
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.003000s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.002001s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.004001s ]
+NOTIC: [8] Use of undefined constant DB_ARRAY - assumed 'DB_ARRAY' D:\php\webapp\mytkp\Application\Home\Controller\ClassController.class.php 第 15 行.
+ERR: 无法加载数据库驱动: Think\Db\Driver\
+NOTIC: [2] Cannot modify header information - headers already sent by (output started at D:\php\webapp\mytkp\ThinkPHP\Common\functions.php:102) D:\php\webapp\mytkp\ThinkPHP\Library\Think\Think.class.php 第 229 行.
+NOTIC: [2] Cannot modify header information - headers already sent by (output started at D:\php\webapp\mytkp\ThinkPHP\Common\functions.php:102) D:\php\webapp\mytkp\ThinkPHP\Library\Think\Think.class.php 第 230 行.
+
+[ 2016-06-17T10:21:20+08:00 ] 127.0.0.1 /mytkp/index.php/Home/Class/loadAllClasses
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.001000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.003000s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.003000s ]
+SQL: SHOW COLUMNS FROM `class` [ RunTime:0.0020s ]
+SQL: SELECT * FROM `class`  [ RunTime:0.0010s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.002000s ]
+INFO: [ app_end ] --END-- [ RunTime:0.004000s ]
+
+[ 2016-06-17T10:22:34+08:00 ] 127.0.0.1 /mytkp/index.php/Home/Class/loadAllClasses
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.003000s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.002000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.004000s ]
+SQL: SHOW COLUMNS FROM `class` [ RunTime:0.0030s ]
+SQL: SELECT * FROM `class`  [ RunTime:0.0010s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.002000s ]
+INFO: [ app_end ] --END-- [ RunTime:0.004000s ]
+
+[ 2016-06-17T10:25:39+08:00 ] 127.0.0.1 /mytkp/index.php/Home/Class/loadAllClasses
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.002000s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.002000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.004000s ]
+SQL: SHOW COLUMNS FROM `class` [ RunTime:0.0020s ]
+SQL: SELECT * FROM `class`  [ RunTime:0.0000s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.002000s ]
+INFO: [ app_end ] --END-- [ RunTime:0.004000s ]
+
+[ 2016-06-17T10:26:00+08:00 ] 127.0.0.1 /mytkp/index.php/Home/Class/loadAllClasses
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.001001s ]
+INFO: [ app_init ] --END-- [ RunTime:0.003001s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.002000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.004000s ]
+SQL: SHOW COLUMNS FROM `class` [ RunTime:0.0020s ]
+SQL: SELECT * FROM `class`  [ RunTime:0.0010s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.001000s ]
+INFO: [ app_end ] --END-- [ RunTime:0.004001s ]
+
+[ 2016-06-17T10:26:10+08:00 ] 127.0.0.1 /mytkp/index.php/Home/Class/loadAllClasses
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.001000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.003000s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.002000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.004000s ]
+SQL: SHOW COLUMNS FROM `class` [ RunTime:0.0020s ]
+SQL: SELECT * FROM `class`  [ RunTime:0.0000s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.002000s ]
+INFO: [ app_end ] --END-- [ RunTime:0.004000s ]
+
+[ 2016-06-17T10:32:24+08:00 ] 127.0.0.1 /mytkp/index.php/Home/Class/loadAllClasses
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.003001s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.002000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.004000s ]
+SQL: SHOW COLUMNS FROM `class` [ RunTime:0.0020s ]
+SQL: SELECT * FROM `class`  [ RunTime:0.0010s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.002000s ]
+INFO: [ app_end ] --END-- [ RunTime:0.004000s ]
+
+[ 2016-06-17T14:23:01+08:00 ] 127.0.0.1 /mytkp/index.php/Home/Class/loadAllClasses
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.003000s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.002000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.004000s ]
+SQL: SHOW COLUMNS FROM `class` [ RunTime:0.0020s ]
+ERR: 1054:Unknown column 'd' in 'where clause'
+ [ SQL语句 ] : SELECT * FROM `class` WHERE ( cid>d ) 
+ERR: 1054:Unknown column 'd' in 'where clause'
+ [ SQL语句 ] : SELECT * FROM `class` WHERE ( cid>d ) 
+NOTIC: [2] Cannot modify header information - headers already sent by (output started at D:\php\webapp\mytkp\ThinkPHP\Library\Think\Db\Driver.class.php:170) D:\php\webapp\mytkp\ThinkPHP\Library\Think\Think.class.php 第 229 行.
+NOTIC: [2] Cannot modify header information - headers already sent by (output started at D:\php\webapp\mytkp\ThinkPHP\Library\Think\Db\Driver.class.php:170) D:\php\webapp\mytkp\ThinkPHP\Library\Think\Think.class.php 第 230 行.
+
+[ 2016-06-17T14:23:51+08:00 ] 127.0.0.1 /mytkp/index.php/Home/Class/loadAllClasses
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.003000s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.004000s ]
+SQL: SHOW COLUMNS FROM `class` [ RunTime:0.0020s ]
+SQL: SELECT * FROM `class` WHERE ( cid>1 )  [ RunTime:0.0010s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.002000s ]
+INFO: [ app_end ] --END-- [ RunTime:0.004001s ]
+
+[ 2016-06-17T14:25:22+08:00 ] 127.0.0.1 /mytkp/index.php/Home/Class/loadAllClasses
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.003000s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001001s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.003001s ]
+SQL: SHOW COLUMNS FROM `class` [ RunTime:0.0020s ]
+SQL: SELECT * FROM `class` WHERE ( cid>1 )  [ RunTime:0.0010s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.001000s ]
+INFO: [ app_end ] --END-- [ RunTime:0.003000s ]
+
+[ 2016-06-17T14:25:48+08:00 ] 127.0.0.1 /mytkp/index.php/Home/Class/loadAllClasses
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.001000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.003000s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.002000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.003000s ]
+SQL: SHOW COLUMNS FROM `class` [ RunTime:0.0030s ]
+SQL: SELECT * FROM `class` WHERE ( cid<2 )  [ RunTime:0.0000s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.002000s ]
+INFO: [ app_end ] --END-- [ RunTime:0.003000s ]
+
+[ 2016-06-17T14:26:50+08:00 ] 127.0.0.1 /mytkp/index.php/Home/Class/loadAllClasses
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.001000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.003000s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.002001s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.004001s ]
+SQL: SHOW COLUMNS FROM `class` [ RunTime:0.0030s ]
+SQL: SELECT * FROM `class` WHERE ( cid<'2' )  [ RunTime:0.0010s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.002001s ]
+INFO: [ app_end ] --END-- [ RunTime:0.004001s ]
+
+[ 2016-06-17T14:29:49+08:00 ] 127.0.0.1 /mytkp/index.php/Home/Class/loadAllClasses
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.003000s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.002000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.003000s ]
+SQL: SHOW COLUMNS FROM `class` [ RunTime:0.0020s ]
+SQL: SELECT * FROM `class` WHERE ( cid='2' )  [ RunTime:0.0000s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.002000s ]
+INFO: [ app_end ] --END-- [ RunTime:0.003000s ]
+
+[ 2016-06-17T14:30:44+08:00 ] 127.0.0.1 /mytkp/index.php/Home/Class/loadAllClasses
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.001000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.003000s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.003000s ]
+SQL: SHOW COLUMNS FROM `class` [ RunTime:0.0020s ]
+SQL: SELECT * FROM `class` WHERE `cid` = 1  [ RunTime:0.0000s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.002000s ]
+INFO: [ app_end ] --END-- [ RunTime:0.004000s ]
+
+[ 2016-06-17T14:39:50+08:00 ] 127.0.0.1 /mytkp/index.php/Home/Class/loadAllClasses
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.002000s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.003000s ]
+SQL: SHOW COLUMNS FROM `class` [ RunTime:0.0030s ]
+SQL: SELECT * FROM `class` WHERE `cid` > 1  [ RunTime:0.0010s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.001000s ]
+INFO: [ app_end ] --END-- [ RunTime:0.003000s ]
+
+[ 2016-06-17T14:52:36+08:00 ] 127.0.0.1 /mytkp/index.php/Home/Class/loadAllClasses
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.002000s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.002000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.004000s ]
+SQL: SHOW COLUMNS FROM `class` [ RunTime:0.0020s ]
+SQL: SHOW COLUMNS FROM `tb_user` [ RunTime:0.0440s ]
+SQL: SELECT * FROM tb_user u,province p,city c WHERE ( u.pid=p.pid and u.cid=c.cid )  [ RunTime:0.2180s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.002000s ]
+INFO: [ app_end ] --END-- [ RunTime:0.004000s ]
+
+[ 2016-06-17T14:54:10+08:00 ] 127.0.0.1 /mytkp/index.php/Home/Class/loadAllClasses
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.001000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.003000s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.002000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.003000s ]
+SQL: SHOW COLUMNS FROM `class` [ RunTime:0.0020s ]
+SQL: SHOW COLUMNS FROM `tb_user` [ RunTime:0.0020s ]
+SQL: SELECT * FROM tb_user u,province p WHERE ( u.pid=p.pid )  [ RunTime:0.0010s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.002000s ]
+INFO: [ app_end ] --END-- [ RunTime:0.004000s ]
+
+[ 2016-06-17T14:55:03+08:00 ] 127.0.0.1 /mytkp/index.php/Home/Class/loadAllClasses
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.003000s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.003000s ]
+SQL: SHOW COLUMNS FROM `class` [ RunTime:0.0020s ]
+SQL: SHOW COLUMNS FROM `tb_user` [ RunTime:0.0020s ]
+SQL: SELECT u.trueName,p.name,c.name FROM tb_user u,province p,city c WHERE ( u.pid=p.pid and u.cid=c.cid )  [ RunTime:0.0000s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.002001s ]
+INFO: [ app_end ] --END-- [ RunTime:0.004001s ]
+
+[ 2016-06-17T14:55:21+08:00 ] 127.0.0.1 /mytkp/index.php/Home/Class/loadAllClasses
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.003000s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.002000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.004000s ]
+SQL: SHOW COLUMNS FROM `class` [ RunTime:0.0030s ]
+SQL: SHOW COLUMNS FROM `tb_user` [ RunTime:0.0020s ]
+SQL: SELECT u.trueName,p.name pname,c.name cname FROM tb_user u,province p,city c WHERE ( u.pid=p.pid and u.cid=c.cid )  [ RunTime:0.0010s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.002000s ]
+INFO: [ app_end ] --END-- [ RunTime:0.004000s ]
+
+[ 2016-06-17T15:29:11+08:00 ] 127.0.0.1 /mytkp/index.php/Home/Class/reg
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.003000s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.004000s ]
+SQL: SHOW COLUMNS FROM `class` [ RunTime:0.0030s ]
+NOTIC: [8] Undefined index: validate D:\php\webapp\mytkp\ThinkPHP\Library\Think\Model.class.php 第 1185 行.
+NOTIC: [8] Undefined index: auto D:\php\webapp\mytkp\ThinkPHP\Library\Think\Model.class.php 第 1128 行.
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.002000s ]
+INFO: [ app_end ] --END-- [ RunTime:0.004001s ]
+
+[ 2016-06-17T15:29:46+08:00 ] 127.0.0.1 /mytkp/index.php/Home/Class/reg
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000000s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000000s ]
+SQL: SHOW COLUMNS FROM `class` [ RunTime:0.0000s ]
+NOTIC: [8] Undefined index: validate D:\php\webapp\mytkp\ThinkPHP\Library\Think\Model.class.php 第 1185 行.
+NOTIC: [8] Undefined index: auto D:\php\webapp\mytkp\ThinkPHP\Library\Think\Model.class.php 第 1128 行.
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.015600s ]
+INFO: [ app_end ] --END-- [ RunTime:0.015600s ]
+
+[ 2016-06-17T15:34:02+08:00 ] 127.0.0.1 /mytkp/index.php/Home/Class/reg
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.015600s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000000s ]
+SQL: SHOW COLUMNS FROM `class` [ RunTime:0.0000s ]
+NOTIC: [8] Undefined index: validate D:\php\webapp\mytkp\ThinkPHP\Library\Think\Model.class.php 第 1185 行.
+NOTIC: [8] Undefined index: auto D:\php\webapp\mytkp\ThinkPHP\Library\Think\Model.class.php 第 1128 行.
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.000000s ]
+INFO: [ app_end ] --END-- [ RunTime:0.015600s ]
+
+[ 2016-06-17T15:35:50+08:00 ] 127.0.0.1 /mytkp/index.php/Home/Class/reg
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000000s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000000s ]
+SQL: SHOW COLUMNS FROM `class` [ RunTime:0.0000s ]
+NOTIC: [8] Undefined index: validate D:\php\webapp\mytkp\ThinkPHP\Library\Think\Model.class.php 第 1185 行.
+NOTIC: [8] Undefined index: auto D:\php\webapp\mytkp\ThinkPHP\Library\Think\Model.class.php 第 1128 行.
+SQL: INSERT INTO `class` (`name`) VALUES ('u21') [ RunTime:0.1092s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.000000s ]
+INFO: [ app_end ] --END-- [ RunTime:0.000000s ]
+
+[ 2016-06-17T15:38:49+08:00 ] 127.0.0.1 /mytkp/index.php/Home/Class/reg
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000000s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000000s ]
+SQL: SHOW COLUMNS FROM `class` [ RunTime:0.0000s ]
+NOTIC: [8] Undefined index: validate D:\php\webapp\mytkp\ThinkPHP\Library\Think\Model.class.php 第 1185 行.
+NOTIC: [8] Undefined index: auto D:\php\webapp\mytkp\ThinkPHP\Library\Think\Model.class.php 第 1128 行.
+SQL: INSERT INTO `class` (`name`) VALUES ('u21') [ RunTime:0.0624s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.000000s ]
+INFO: [ app_end ] --END-- [ RunTime:0.000000s ]
+
+[ 2016-06-17T15:40:35+08:00 ] 127.0.0.1 /mytkp/index.php/Home/Class/reg
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000000s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000000s ]
+SQL: SHOW COLUMNS FROM `class` [ RunTime:0.0000s ]
+NOTIC: [8] Undefined index: validate D:\php\webapp\mytkp\ThinkPHP\Library\Think\Model.class.php 第 1185 行.
+NOTIC: [8] Undefined index: auto D:\php\webapp\mytkp\ThinkPHP\Library\Think\Model.class.php 第 1128 行.
+SQL: UPDATE `class` SET `name`='u21',`classType`='4' WHERE `cid` = 4 [ RunTime:0.0780s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.000000s ]
+INFO: [ app_end ] --END-- [ RunTime:0.015600s ]
+
+[ 2016-06-17T15:43:43+08:00 ] 127.0.0.1 /mytkp/index.php/Home/Class/reg
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000000s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.015600s ]
+SQL: SHOW COLUMNS FROM `class` [ RunTime:0.0000s ]
+NOTIC: [8] Undefined index: validate D:\php\webapp\mytkp\ThinkPHP\Library\Think\Model.class.php 第 1185 行.
+NOTIC: [8] Undefined index: auto D:\php\webapp\mytkp\ThinkPHP\Library\Think\Model.class.php 第 1128 行.
+SQL: INSERT INTO `class` (`name`,`classType`) VALUES ('u22','4') [ RunTime:0.1716s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.000000s ]
+INFO: [ app_end ] --END-- [ RunTime:0.000000s ]
+
+[ 2016-06-17T17:37:07+08:00 ] 127.0.0.1 /mytkp/index.php/Home/Class/reg
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000000s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000000s ]
+SQL: SHOW COLUMNS FROM `class` [ RunTime:0.0000s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.000000s ]
+INFO: [ app_end ] --END-- [ RunTime:0.000000s ]
+
+[ 2016-06-17T17:37:37+08:00 ] 127.0.0.1 /mytkp/index.php/Home/Class/reg
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.010000s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.010000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.010000s ]
+SQL: SHOW COLUMNS FROM `class` [ RunTime:0.0000s ]
+SQL: UPDATE `class` SET `stucount`=stucount+1 WHERE ( cid=1 ) [ RunTime:0.1000s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.000000s ]
+INFO: [ app_end ] --END-- [ RunTime:0.000000s ]
+
+[ 2016-06-17T17:43:21+08:00 ] 127.0.0.1 /mytkp/index.php/Home/Class/reg
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000000s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000000s ]
+SQL: SHOW COLUMNS FROM `class` [ RunTime:0.0000s ]
+SQL: DELETE FROM `class` WHERE `cid` = 5 [ RunTime:0.1092s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.000000s ]
+INFO: [ app_end ] --END-- [ RunTime:0.000000s ]
+
+[ 2016-06-17T17:43:43+08:00 ] 127.0.0.1 /mytkp/index.php/Home/Class/reg
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.015600s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000000s ]
+SQL: SHOW COLUMNS FROM `class` [ RunTime:0.0000s ]
+SQL: DELETE FROM `class` WHERE `cid` = 4 [ RunTime:0.1404s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.000000s ]
+INFO: [ app_end ] --END-- [ RunTime:0.000000s ]
+

@@ -1,0 +1,190 @@
+<!DOCTYPE html>
+<html>
+	<head>
+		<title>reg模版</title>
+		<meta charset="utf-8">
+	</head>
+	<body>
+		reg模版<br/>
+		{$ttt}<br/>
+		{$arr.0}----{$arr[1]}<br/>
+		{$arr2.aa}----{$arr2[bb]}<br/>
+		{$data.0.cid}--{$data[0][name]}<br/>
+		{$menu:menuid}--{$menu->name}<br/>
+		{$Think.server.http_user_agent}<br/>
+		{$Think.get.userName}--{$Think.get.userPass}<br/>
+		{$host}<br/>
+		{$str|md5=###}<br/>
+		{$str|substr=0,3}---{$str|substr=###,0,5}<br/>
+		{:substr($str,0,4)}<br/>
+		{$str|default="中国你好"}<br/>
+		{$i+$j}~~{$i-$j}~~{$i*$j}~~{$i/$j}~~{$i%$j}~~{$i++}~~{++$i}<br/>
+		{$i < 4?"哈哈":"呵呵"}<br/>
+		
+		<table border="1" bordercolor="blue" width="100%" cellspacing="0">
+			<tr>
+				<td>编号</td>
+				<td>名称</td>
+				<td>类型</td>
+				<td>状态</td>
+				<td>创建时间</td>
+				<td>开班时间</td>
+				<td>结业时间</td>
+				<td>班主任</td>
+				<td>项目经理</td>
+				<td>人数</td>
+				<td>备注</td>
+			</tr> 
+				<!-- 第{$i}次循环-索引为{$key} 
+			<volist name="data" id="class" mod="2" empty="$msg" key="i">
+				<eq name="mod" value="0">
+					<tr style="background-color:gray;">
+						<td>{$class.cid}</td>
+						<td>{$class.name}</td>
+						<td>{$class.classtype}</td>
+						<td>{$class.status}</td>
+						<td>{$class.createtime}</td>
+						<td>{$class.begintime}</td>
+						<td>{$class.endtime}</td>
+						<td>{$class.headerid}</td>
+						<td>{$class.managerid}</td>
+						<td>{$class.stucount}</td>
+						<td>{$class.remark}</td>
+					</tr>
+				</eq>
+				<eq name="mod" value="1">
+					<tr style="background-color:orange;">
+						<td>{$class.cid}</td>
+						<td>{$class.name}</td>
+						<td>{$class.classtype}</td>
+						<td>{$class.status}</td>
+						<td>{$class.createtime}</td>
+						<td>{$class.begintime}</td>
+						<td>{$class.endtime}</td>
+						<td>{$class.headerid}</td>
+						<td>{$class.managerid}</td>
+						<td>{$class.stucount}</td>
+						<td>{$class.remark}</td>
+					</tr>
+				</eq>
+			</volist>
+			-->
+			
+			<foreach name="data" item="class" key="i">
+				<eq name="i%2" value="0">
+					<tr style="background-color:green;">
+						<td>{$class.cid}</td>
+						<td>{$class.name}</td>
+						<td>
+							<if condition="$class.classtype eq 1">常规班
+							<elseif condition="$class.classtype eq 2"/>快速班
+							<elseif condition="$class.classtype eq 3"/>falsh班
+							<else/>php班
+							</if>
+						</td>
+						<td>
+							<if condition="$class.status eq 1">正常
+							<elseif condition="$class.status eq 2"/>被合并
+							<elseif condition="$class.status eq 3"/>已结业
+							<else/>已废除
+							</if>
+						</td>
+						<td>{$class.createtime}</td>
+						<td>{$class.begintime}</td>
+						<td>{$class.endtime}</td>
+						<td>{$class.headerid}</td>
+						<td>{$class.managerid}</td>
+						<td>{$class.stucount}</td>
+						<td>{$class.remark}</td>
+					</tr>
+				</eq>
+				<eq name="i%2" value="1">
+					<tr style="background-color:yellow;">
+						<td>{$class.cid}</td>
+						<td>{$class.name}</td>
+						<td>
+							<if condition="$class.classtype eq 1">常规班
+							<elseif condition="$class.classtype eq 2"/>快速班
+							<elseif condition="$class.classtype eq 3"/>falsh班
+							<else/>php班
+							</if>
+						</td>
+						<td>
+							<if condition="$class.status eq 1">正常
+							<elseif condition="$class.status eq 2"/>被合并
+							<elseif condition="$class.status eq 3"/>已结业
+							<else/>已废除
+							</if>
+							<!-- <eq name="class.status" value="1">正常</eq>
+							<eq name="class.status" value="2">被合并</eq>
+							<eq name="class.status" value="3">已结业</eq>
+							<eq name="class.status" value="4">已废除</eq> -->
+						</td>
+						<td>{$class.createtime}</td>
+						<td>{$class.begintime}</td>
+						<td>{$class.endtime}</td>
+						<td>{$class.headerid}</td>
+						<td>{$class.managerid}</td>
+						<td>{$class.stucount}</td>
+						<td>{$class.remark}</td>
+					</tr>
+				</eq>
+			</foreach>
+			
+			
+			<!-- <for start="0" end="$arrayLength" comparison="lt" step="1" name="i"> 
+			<for start="$arrayLength-1" end="0" comparison="egt" step="-1" name="i">
+				<eq name="i%2" value="0">
+					<tr style="background-color:yellow;">
+						<td>{$data.$i.cid}</td>
+						<td>{$data[$i].name}</td>
+						<td>{$data.$i.classtype}</td>
+						<td>{$data.$i.status}</td>
+						<td>{$data.$i.createtime}</td>
+						<td>{$data.$i.begintime}</td>
+						<td>{$data.$i.endtime}</td>
+						<td>{$data.$i.headerid}</td>
+						<td>{$data.$i.managerid}</td>
+						<td>{$data.$i.stucount}</td>
+						<td>{$data.$i.remark}</td>
+					</tr>
+				</eq>
+				<eq name="i%2" value="1">
+					<tr style="background-color:green;">
+						<td>{$data.$i.cid}</td>
+						<td>{$data[$i].name}</td>
+						<td>{$data.$i.classtype}</td>
+						<td>{$data.$i.status}</td>
+						<td>{$data.$i.createtime}</td>
+						<td>{$data.$i.begintime}</td>
+						<td>{$data.$i.endtime}</td>
+						<td>{$data.$i.headerid}</td>
+						<td>{$data.$i.managerid}</td>
+						<td>{$data.$i.stucount}</td>
+						<td>{$data.$i.remark}</td>
+					</tr>
+				</eq>
+			</for>
+			-->
+		</table>
+		{$j}
+		<switch name="j">
+			<case value="1">你</case>
+			<case value="2">我</case>
+			<case value="3">他</case>
+			<case value="4">你们</case>
+			<case value="5">我们</case>
+			<case value="6">他们</case>
+			<default>其他</default>
+		</switch>
+		<br/>
+		<if condition="$j lt 6">
+			哈哈哈哈哈哈哈
+		<else/>
+			hehehehehe
+		</if>
+		
+		
+		
+	</body>
+</html>

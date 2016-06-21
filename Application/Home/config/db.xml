@@ -1,0 +1,19 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<datasources xmlns="http://www.example.org/newXMLSchema" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" 
+	xsi:schemaLocation="http://www.example.org/newXMLSchema db.xsd">
+	
+	<database id="dsnForMysql">
+		<dsn>mysql:host=localhost;dbname=sys</dsn>
+		<username>root</username>
+		<password>lovo1234</password>
+	</database>
+	
+	
+	<database id="dsnForOracle">
+		<dsn>oci:dbname=//localhost:1521/ORCL</dsn>
+		<username>wu</username>
+		<password>tigger</password>
+	</database>
+	
+	
+</datasources>
