@@ -196,6 +196,7 @@
 				"combinedManagerid":$("#combinedManagerid").combo("getValue")
 			},function(result){
 				$('#win').window('close');
+				alert("班级合并成功！");
 				$("#dg").datagrid('loadData',{
 					rows: result.rows,
 					total: result.total

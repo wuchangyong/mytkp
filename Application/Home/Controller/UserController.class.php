@@ -23,15 +23,20 @@ class UserController extends Controller{
         $i = $this->userModel->login($userName, $userPass);
         if($i == 1){
             $user = $this->userModel->loadUserByName($userName);
+//             header("Content-Type:text/html;charset=utf-8");
+//             echo $user[4];
+            
             session_start();
             $_SESSION["loginUser"] = $user;
             
             //取出当前登录用户的主键uid，用来查询他拥有的菜单
             $uid = $_SESSION["loginUser"][0];
             $secondMenu = $this->menuModel->loadTreeMenu($uid);
+//             echo count($secondMenu);
             $_SESSION["secondMenu"] = $secondMenu;
-            
-            header("location:http://localhost:8000/mytkp/welcome.php");
+            $host = $_SERVER["HTTP_HOST"];
+//             echo $host;
+            header("location:http://$host/mytkp/welcome.php");
         }elseif ($i == 2){
             
         }else {
