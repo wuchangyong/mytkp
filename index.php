@@ -18,7 +18,7 @@ if(version_compare(PHP_VERSION,'5.3.0','<'))  die('require PHP > 5.3.0 !');
 define("ROOT", str_replace("\\", "/", dirname(__FILE__)."/"));
 
 //定义常量BASEPATH表示项目根目录的URL绝对路径 吴昌勇增加
-define('BASEPATH','http://localhost:8024/mytkp/');
+define('BASEPATH','http://localhost:8080/mytkp/');
 
 
 // 开启调试模式 建议开发阶段开启 部署阶段注释或者设为false
