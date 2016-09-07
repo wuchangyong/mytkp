@@ -12,7 +12,7 @@ class MenuController extends Controller {
     }
     
     public function menuManage(){
-//         $this->assign("root",ROOT);
+        $this->assign("BASEPATH",BASEPATH);
         $this->display();
     }
     

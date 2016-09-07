@@ -1,6 +1,6 @@
 <?php
 namespace model;
-use util\DBUtil;
+use Home\util\DBUtil;
 class RoleModel{
     
     private $dbUtil;

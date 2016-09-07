@@ -3,7 +3,6 @@
 return array(
 	//'配置项'=>'配置值'
 	//'SESSION_AUTO_START'=>false,
-	
     
 	
     //修改默认的模版目录结构为  控制器类名称_操作方法名.html

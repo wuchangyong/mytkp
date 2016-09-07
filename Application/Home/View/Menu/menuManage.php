@@ -1,13 +1,13 @@
-<?php if (!defined('THINK_PATH')) exit();?><!DOCTYPE html>
+<!DOCTYPE html>
 <html>
 	<head>
 		<title>菜单管理界面</title>
 		<meta charset="utf-8">
-		<link type="text/css" rel="stylesheet" href="<?php echo ($BASEPATH); ?>Public/easyui/themes/bootstrap/easyui.css"/>
-		<link type="text/css" rel="stylesheet" href="<?php echo ($BASEPATH); ?>Public/easyui/themes/icon.css" />
-		<script type="text/javascript" src="<?php echo ($BASEPATH); ?>Public/easyui/jquery.min.js"></script>
-		<script type="text/javascript" src="<?php echo ($BASEPATH); ?>Public/easyui/jquery.easyui.min.js"></script>
-		<script type="text/javascript" src="<?php echo ($BASEPATH); ?>Public/easyui/locale/easyui-lang-zh_CN.js"></script>
+		<link type="text/css" rel="stylesheet" href="{$BASEPATH}Public/easyui/themes/bootstrap/easyui.css"/>
+		<link type="text/css" rel="stylesheet" href="{$BASEPATH}Public/easyui/themes/icon.css" />
+		<script type="text/javascript" src="{$BASEPATH}Public/easyui/jquery.min.js"></script>
+		<script type="text/javascript" src="{$BASEPATH}Public/easyui/jquery.easyui.min.js"></script>
+		<script type="text/javascript" src="{$BASEPATH}Public/easyui/locale/easyui-lang-zh_CN.js"></script>
 		<style type="text/css">
         #formtable{width:60%;margin:auto;margin-top:20px;}
         #formtable tr{height:40px;}
@@ -19,7 +19,7 @@
 			$('#dg').datagrid({
 			    striped:true,
 			    method: "GET",
-			    url:'<?php echo ($BASEPATH); ?>index.php/Home/Menu/loadMenuByPage?pageNo=1&pageSize=10',
+			    url:'{$BASEPATH}index.php/Home/Menu/loadMenuByPage?pageNo=1&pageSize=10',
 			    pagination:true,
 			    rownumbers:true,
 			    frozenColumns:[[
@@ -44,7 +44,7 @@
 					handler: function(){
 						//每次打开窗口前加载1 2级菜单作为父级菜单下拉列表的选项
 						$('#parentid').combobox({    
-						    url:'<?php echo ($BASEPATH); ?>index.php/Home/Menu/load12Menu',    
+						    url:'{$BASEPATH}index.php/Home/Menu/load12Menu',    
 						    valueField:'menuid',    
 						    textField:'name'   
 						}); 
@@ -66,7 +66,7 @@
 							for(var i=0;i<selectedRows.length;i++){
 								menuids.push(selectedRows[i].menuid);
 							}
-							$.post("<?php echo ($BASEPATH); ?>index.php/Home/Menu/deleteMenus",{
+							$.post("{$BASEPATH}index.php/Home/Menu/deleteMenus",{
 								"menuids"    : menuids.join(",")
 							},function(data){
 								refreshData(1,10);
@@ -88,7 +88,7 @@
 						}
 						//每次打开窗口前加载1 2级菜单作为父级菜单下拉列表的选项
 						$('#parentid').combobox({    
-						    url:'<?php echo ($BASEPATH); ?>index.php/Home/Menu/load12Menu',    
+						    url:'{$BASEPATH}index.php/Home/Menu/load12Menu',    
 						    valueField:'menuid',    
 						    textField:'name'   
 						});  
@@ -97,7 +97,7 @@
 						//获取当前选中的那一行数据
 						var row = selectedRows[0];
 						//回填数据
-						$.getJSON("<?php echo ($BASEPATH); ?>index.php/Home/Menu/loadMenuByID?menuid="+row.menuid,{},function(data){
+						$.getJSON("{$BASEPATH}index.php/Home/Menu/loadMenuByID?menuid="+row.menuid,{},function(data){
 							$("#menuid").val(row.menuid);
 							$("#name").val(data.name);
 							$("#url").val(data.url);
@@ -129,7 +129,7 @@
 			var url = $("#url").val();
 			var parentid = $('#parentid').combo('getValue');
 			var isshow = $("#isshow").combo("getValue");
-			$.post("<?php echo ($BASEPATH); ?>index.php/Home/Menu/saveOrUpdateMenu",{
+			$.post("{$BASEPATH}index.php/Home/Menu/saveOrUpdateMenu",{
 				"menuid"	: menuid,
 				"name"		: name,
 				"url" 		: url,
@@ -154,7 +154,7 @@
 		//刷新表格数据
 		function refreshData(pageNumber,pageSize){
 			$("#dg").datagrid('loading');
-			$.getJSON("<?php echo ($BASEPATH); ?>index.php/Home/Menu/loadMenuByPage?pageNo="+pageNumber+"&pageSize="+pageSize,{},function(result){
+			$.getJSON("{$BASEPATH}index.php/Home/Menu/loadMenuByPage?pageNo="+pageNumber+"&pageSize="+pageSize,{},function(result){
 				$("#dg").datagrid('loadData',{
 					rows: result.rows,
 					total: result.total

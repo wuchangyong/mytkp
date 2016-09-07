@@ -19,6 +19,7 @@ class ClassController extends Controller{
     
     
     public function classManage(){
+        $this->assign("BASEPATH",BASEPATH);
         $this->display();
     }
     

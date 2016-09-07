@@ -1,4 +1,5 @@
-<?php if (!defined('THINK_PATH')) exit();?><!DOCTYPE html>
+<?php if (!defined('THINK_PATH')) exit(); session_start(); ?>
+<!DOCTYPE html>
 <html>
 	<head>
 		<title>菜单管理界面</title>
