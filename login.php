@@ -43,6 +43,8 @@ session_start();
 			$("#bt-login").click(function(){
 				$("#ff")[0].submit();
 			});
+
+			//测试vscode整合git提交项目代码
 		});
 		</script>
 	</head>
